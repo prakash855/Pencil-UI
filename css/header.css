@@ -4,10 +4,10 @@ nav {
     font-size: 2rem;
     margin: 1rem;
     padding: 1rem 5rem;
-    color: firebrick;
+    color: var(--theme-color);
   }
 
   nav a{
     text-decoration: none;
-    color: firebrick;
+    color: var(--theme-color);
   }
