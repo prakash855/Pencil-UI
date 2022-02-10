@@ -1,18 +1,22 @@
 @import url("../components/Avatar/Avatar.css");
 
 :root {
-  --primary-color: #6366f1;
-  --default-color: #172b4d;
-  --secondary-color: #f3f4f6;
+  --primary-color: rgb(25, 118, 210);
+  --default-color: #1f2a3b;
+  --secondary-color: #8392b0;
   --danger-color: #f44336;
   --success-color: #4caf50;
   --warning-color: #ff9800;
+  --info-color:#2dacc6;
 
   --primary-hover: #4f46e5;
   --secondary-hover: #e5e7eb;
   --danger-hover: #d31609;
   --success-hover: #0d8611;
   --active-hover: #058ce0;
+  --warning-hover: #c98217;
+  --info-hover:#1e6c7b;
+  --default-hover: #0c0c0c;
 
   --white: white;
   --active-color: #1ea7fd;

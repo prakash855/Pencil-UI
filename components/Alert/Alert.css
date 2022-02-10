@@ -1,0 +1,30 @@
+.alert {
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.alert_success {
+  color: var(--success-color);
+  background: rgb(237, 247, 237);
+}
+
+.alert_info {
+  color: var(--primary-color);
+  background: rgb(229, 246, 253);
+}
+
+.alert_warning {
+  color: rgb(102, 60, 0);
+  background: rgb(255, 244, 229);
+}
+
+.alert_error {
+  color: var(--theme-color);
+  background: rgb(253, 237, 237);
+}
+.alert_icon {
+  padding: 0 1.5rem;
+}
