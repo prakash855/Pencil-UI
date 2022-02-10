@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencil UI</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/pencil-fill.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="./Avatar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Zilla+Slab:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <nav class="shadow navbar">
+            <div>
+                <a href="../../index.html"><i class="bi bi-pencil-fill"></i>&nbsp;Pencil UI</a>
+            </div>
+
+            <a href="https://www.github.com/prakash855" target="_"><i class="bi bi-github"></i></a>
+        </nav>
+
+        <div class="container flex">
+            <div class="sidebar">
+                <!-- components -->
+                <div class="components-list">
+                    <div class="topic">
+                        <a href="../Alert/Alert.html">Getting Started</a>
+                    </div>
+                    <div class="topic">
+                        <a href="../Alert/Alert.html">Components</a>
+                    </div>
+                    <ul class="components">
+                        <li>
+                            <a href="../Alert/Alert.html">Alert</a>
+                        </li>
+                        <li>
+                            <a href="../Avatar/Avatar.html">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="../Badge/Badge.html">Badge</a>
+                        </li>
+                        <li>
+                            <a href="">Button</a>
+                        </li>
+                        <li>
+                            <a href="">Card</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content_heading">Avatar</div>
+                <div class="content_about">Provide relative avatars for typical user to display the user profile as a
+                    picture based on the requirements.</div>
+
+                <!-- image avatars -->
+                <div class="content_subheading_heading">Image Avatars</div>
+                <p class="content_text">Image avatars can be created by passing <span class="highlights">img</span>
+                    props as <span class="highlights">src</span> to the component.</p>
+                <div class="component_container flex shadow wrap">
+                    <img class="avatar_xl round responsive_image" src="../../assets/avatar.jpg" alt="">
+                    <img class="avatar_lg round responsive_image" src="../../assets/avatar.jpg" alt="">
+                    <img class="avatar_md round responsive_image" src="../../assets/avatar.jpg" alt="">
+                    <img class="avatar_sm round responsive_image" src="../../assets/avatar.jpg" alt="">
+                    <img class="avatar_xs round responsive_image" src="../../assets/avatar.jpg" alt="">
+                </div>
+                <!-- for code snippets -->
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar_xl%2520round%2520responsive_image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar_lg%2520round%2520responsive_image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar_md%2520round%2520responsive_image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar_sm%2520round%2520responsive_image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar_xs%2520round%2520responsive_image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E"
+                    style="width: 850px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <!-- letter avatars -->
+                <div class="content_subheading_heading">Letter Avatars</div>
+                <p class="content_text">Letter avatars can be created by passing string as a <span
+                        class="highlights">children</span>
+                    props to the component.</p>
+                <div class="component_container flex shadow wrap ">
+                    <div class="avatar avatar_xl round responsive_image flex flex-center">P</div>
+                    <div class="avatar avatar_lg round responsive_image flex flex-center">P</div>
+                    <div class="avatar avatar_md round responsive_image flex flex-center">P</div>
+                    <div class="avatar avatar_sm round responsive_image flex flex-center">P</div>
+                    <div class="avatar avatar_xs round responsive_image flex flex-center">P</div>
+                </div>
+                <!-- for code snippets -->
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar_xl%2520round%2520responsive_image%2520flex%2520flex-center%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar_lg%2520round%2520responsive_image%2520flex%2520flex-center%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar_md%2520round%2520responsive_image%2520flex%2520flex-center%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar_sm%2520round%2520responsive_image%2520flex%2520flex-center%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar_xs%2520round%2520responsive_image%2520flex%2520flex-center%2522%253EA%253C%252Fdiv%253E"
+                    style="width: 799px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="footer flex">
+                    <a href="../Alert/Alert.html" class="leftLink">
+                        < &nbsp; Alert</a>
+                            <a href="../Badge/Badge.html" class="rightLink">Badge &nbsp; ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
