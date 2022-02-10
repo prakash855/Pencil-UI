@@ -1,0 +1,61 @@
+.icons {
+  position: relative;
+}
+
+.icon_lg {
+  width: 4rem;
+}
+
+.icon_md {
+  width: 3rem;
+}
+
+.icon_sm {
+  width: 2rem;
+}
+.badge {
+  position: absolute;
+  border: 1px solid;
+  left: 3.5rem;
+  top: -0.3rem;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--offline);
+}
+.badge_md {
+  left: 2.5rem;
+}
+.badge_sm {
+  left: 1.5rem;
+}
+
+.badge_status {
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 0.2rem;
+  height: 0.2rem;
+  padding: 0.3rem;
+}
+
+.status_online {
+  background: var(--online);
+  right: 1.4rem;
+}
+
+.status_offline {
+  background: var(--offline);
+  right: 0.1rem;
+}
+
+.status_away {
+    background: var(--light-color);
+    right: -0.1rem;
+    bottom: 7px;
+    padding: 0.2rem;
+  }
