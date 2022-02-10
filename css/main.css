@@ -11,6 +11,8 @@
 
 iframe{
   max-width: 830px;
+  min-width: 800px;
+  max-height: 40vh;
   margin: 1rem 0;
 }
 
@@ -40,7 +42,7 @@ main .head {
 .buttons {
   max-width: 30%;
   margin: 0 auto;
-  height: 17vh;
+  min-height: 17vh;
   width: 300px;
   display: flex;
   gap: 1rem;
@@ -49,10 +51,12 @@ main .head {
 }
 
 .btn {
-  border: 1px solid;
+  border: none;
   border-radius: 0.3rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
   display: flex;
+  min-width: 130px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -60,11 +64,9 @@ main .head {
 .btn-primary {
   border: 1px solid var(--theme-color);
   color: var(--theme-color);
-  min-width: 125px;
 }
 
 .btn-secondary {
   background: var(--theme-color);
   color: white;
-  min-width: 125px;
 }
