@@ -104,7 +104,6 @@
   padding: 1rem;
   margin: 1rem 0;
   justify-content: flex-start;
-  min-width: max-content;
   gap: 2rem;
   align-items: center;
 }
