@@ -81,6 +81,7 @@
 
 .content_subheading_heading {
   font-weight: 600;
+  padding: 1rem 0;
   font-size: var(--subheading-heading-font-size);
 }
 
