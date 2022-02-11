@@ -1,6 +1,7 @@
 @import url("./components.css");
 @import url("./header.css");
 @import url("./utilities.css");
+@import url('../components/Button/Button.css');
 
 * {
   font-family: "Zilla Slab", serif;

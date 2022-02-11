@@ -1,0 +1,84 @@
+.card {
+  padding: 1rem;
+  flex-direction: column;
+  width: 20rem;
+  gap: 1rem;
+}
+
+.card_with_badge {
+  margin: 1rem 0;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  width: 20rem;
+}
+
+.card_badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  padding: 1px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card_badge:hover {
+  background: inherit;
+  color: var(--danger-color);
+}
+
+.card_image {
+  width: 20rem;
+  height: max-content;
+  border-radius: 5px;
+}
+
+.card_name {
+  font-weight: bold;
+  color: var(--light-color);
+}
+
+.card_price {
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.card_deal {
+  color: var(--success-color);
+}
+
+.card_detail {
+  padding: 0.5rem 1rem;
+}
+
+.dismiss_badge {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  font-size: 1.5rem;
+  padding: 1px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dismiss_badge:hover {
+  background: var(--light-color);
+  color: var(--white);
+}
+
+.varticle_card_footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.card_media {
+  font-size: 1.2rem;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.Horizontal_card{
+    width: 50rem;
+}
