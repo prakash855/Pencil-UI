@@ -114,6 +114,11 @@
   padding: 1rem 0;
 }
 
+.home_footer{
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
 .leftLink,
 .rightLink {
   font-size: 1.2rem;
