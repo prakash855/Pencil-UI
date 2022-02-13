@@ -1,0 +1,37 @@
+.utility_container {
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+.small_text {
+  font-size: 10px;
+}
+
+.italic_text {
+  font-style: italic;
+}
+
+.light_weight{
+    font-weight: lighter;
+}
+
+.left_aligned{
+    text-align: left;
+}
+
+.center_aligned{
+    text-align: center;
+}
+
+.right_aligned{
+    text-align: right;
+}
