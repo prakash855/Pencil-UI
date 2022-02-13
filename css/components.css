@@ -55,7 +55,7 @@
 }
 
 .components li {
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 1rem;
   color: rgba(26, 26, 26, 0.75);
   transition: color 0.2s ease-out;
   font-weight: 600;
