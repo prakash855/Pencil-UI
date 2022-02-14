@@ -1,3 +1,5 @@
+// Animation in the Landing Page
+
 window.addEventListener("load", (inItEvent) => {
   document.getElementsByClassName("head-logo")[0].style.transform =
     "scale(1,1)";
@@ -6,6 +8,8 @@ window.addEventListener("load", (inItEvent) => {
 window.addEventListener("load", (inItEvent) => {
   document.getElementsByClassName("head")[0].style.transform = "translateX(0%)";
 });
+
+// Input Validation in Input Component
 
 const inputText = document.getElementById("inputText");
 const errorOrSuccessInput = document.getElementById("errorOrSuccessInput");
@@ -19,3 +23,8 @@ inputText.addEventListener("input", (e) => {
     errorOrSuccessInput.style.color = "red";
   }
 });
+
+// Case TransformStream in the Text Utilities
+
+document.getElementById('lowerCased').innerText.toUpperCase()
+document.getElementById('upperCased').innerText.toLowerCase()
