@@ -59,10 +59,15 @@
   color: rgba(26, 26, 26, 0.75);
   transition: color 0.2s ease-out;
   font-weight: 600;
+  list-style-type: none;
 }
 
 .components li:hover {
   color: #999;
+}
+
+.components li:active{
+  color: black;
 }
 
 .topic {
