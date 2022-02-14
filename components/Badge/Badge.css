@@ -20,8 +20,7 @@
   top: -0.3rem;
   width: 1rem;
   height: 1rem;
-  padding: 0.5rem;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 50%;
   color: var(--white);
   background: var(--offline);
