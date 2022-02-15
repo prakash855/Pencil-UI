@@ -70,12 +70,18 @@ main .head {
   transition: all 0.2s ease-in;
 }
 
+.btn-secondary {
+  background: var(--theme-color);
+  color: white;
+}
+
 .btn-primary:hover{
   background: var(--theme-color);
   color: white;
 }
 
-.btn-secondary {
-  background: var(--theme-color);
-  color: white;
+.btn-secondary:hover {
+  background: var(--white);
+  color: var(--theme-color);
+  border: 1px solid var(--theme-color);
 }
