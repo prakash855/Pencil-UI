@@ -35,3 +35,11 @@
 .right_aligned{
     text-align: right;
 }
+
+.lowerCased{
+  text-transform: lowercase;
+}
+
+.upperCased{
+  text-transform: uppercase;
+}
