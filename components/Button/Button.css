@@ -4,6 +4,7 @@
 }
 
 .primary_btn:hover {
+  transition: all .3s ease-in;
   background: var(--primary-hover);
 }
 
@@ -12,6 +13,7 @@
 }
 
 .secondary_btn:hover {
+  transition: all .3s ease-in;
   background: var(--secondary-hover);
 }
 
@@ -21,6 +23,7 @@
 }
 
 .success_btn:hover {
+  transition: all .3s ease-in;
   background: var(--success-hover);
 }
 
@@ -30,6 +33,7 @@
 }
 
 .danger_btn:hover {
+  transition: all .3s ease-in;
   background: var(--danger-hover);
 }
 
@@ -39,6 +43,7 @@
 }
 
 .warning_btn:hover {
+  transition: all .3s ease-in;
   background: var(--warning-hover);
 }
 
@@ -48,6 +53,7 @@
 }
 
 .dark_btn:hover {
+  transition: all .3s ease-in;
   background: var(--default-hover);
 }
 
@@ -57,6 +63,7 @@
 }
 
 .info_btn:hover {
+  transition: all .3s ease-in;
   background: var(--info-hover);
 }
 
@@ -92,95 +99,103 @@
   color: var(--info-color);
 }
 
-.i_btn{
-    padding-right: 1rem;
+.i_btn {
+  padding-right: 1rem;
 }
 
-.btn_float{
-    width: 3rem;
-    height: 3rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border: none;
-    box-shadow: 5px 5px 10px black;
-    color: var(--white);
-    background: var(--primary-color);
+.btn_float {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 5px 10px black;
+  color: var(--white);
+  background: var(--primary-color);
 }
 
-.btn_float:hover{
-    background: rgb(38 103 168);
+.btn_float:hover {
+  transition: all .3s ease-in;
+  background: rgb(38 103 168);
 }
 
-.btn_outline{
-    background: none;
+.btn_outline {
+  background: none;
 }
 
-.primary_btn_outline{
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+.primary_btn_outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.secondary_btn_outline{
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+.secondary_btn_outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
-.success_btn_outline{
-    color: var(--success-color);
-    border: 1px solid var(--success-color);
+.success_btn_outline {
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
 }
 
-.danger_btn_outline{
-    color: var(--danger-color);
-    border: 1px solid var(--danger-color);
+.danger_btn_outline {
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
 }
 
-.warning_btn_outline{
-    color: var(--warning-color);
-    border: 1px solid var(--warning-color);
+.warning_btn_outline {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
 }
 
-.dark_btn_outline{
-    color: var(--default-color);
-    border: 1px solid var(--default-color);
+.dark_btn_outline {
+  color: var(--default-color);
+  border: 1px solid var(--default-color);
 }
 
-.info_btn_outline{
-    color: var(--info-color);
-    border: 1px solid var(--info-color);
+.info_btn_outline {
+  color: var(--info-color);
+  border: 1px solid var(--info-color);
 }
 
-.primary_btn_outline:hover{
-    background: var(--primary-hover);
-    color: var(--white);
+.primary_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--primary-hover);
+  color: var(--white);
 }
 
-.secondary_btn_outline:hover{
-    background: var(--secondary-hover);
-    color: inherit;
+.secondary_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--secondary-hover);
+  color: inherit;
 }
 
-.success_btn_outline:hover{
-    background: var(--success-hover);
-    color: var(--white);
+.success_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--success-hover);
+  color: var(--white);
 }
 
-.danger_btn_outline:hover{
-    background: var(--danger-hover);
-    color: var(--white);
+.danger_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--danger-hover);
+  color: var(--white);
 }
 
-.warning_btn_outline:hover{
-    background: var(--warning-hover);
-    color: var(--white);
+.warning_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--warning-hover);
+  color: var(--white);
 }
 
-.dark_btn_outline:hover{
-    background: var(--default-hover);
-    color: var(--white);
+.dark_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--default-hover);
+  color: var(--white);
 }
 
-.info_btn_outline:hover{
-    background: var(--info-hover);
-    color: var(--white);
+.info_btn_outline:hover {
+  transition: all .3s ease-in;
+  background: var(--info-hover);
+  color: var(--white);
 }

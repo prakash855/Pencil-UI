@@ -63,7 +63,8 @@
 }
 
 .components li:hover {
-  color: #999;
+  transition: all .3s ease-in;
+  color: var(--theme-color);
 }
 
 .components li:active{
