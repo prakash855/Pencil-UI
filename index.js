@@ -23,8 +23,3 @@ inputText.addEventListener("input", (e) => {
     errorOrSuccessInput.style.color = "red";
   }
 });
-
-// Case TransformStream in the Text Utilities
-
-document.getElementById('lowerCased').innerText.toUpperCase()
-document.getElementById('upperCased').innerText.toLowerCase()
