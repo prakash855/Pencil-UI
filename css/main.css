@@ -16,13 +16,6 @@
   box-sizing: border-box;
 }
 
-iframe {
-  max-width: 830px;
-  min-width: 800px;
-  max-height: 40vh;
-  margin: 1rem 0;
-}
-
 main {
   text-align: center;
 }
@@ -43,9 +36,7 @@ main .head {
 }
 
 .buttons {
-  max-width: 30%;
   margin: 0 auto;
-  min-height: 17vh;
   width: 300px;
   display: flex;
   gap: 1rem;
@@ -55,7 +46,6 @@ main .head {
 
 .btn {
   border: none;
-  /* border-radius: 0.3rem; */
   font-size: 1.2rem;
   padding: 0.3rem 1rem;
   display: flex;
@@ -75,7 +65,7 @@ main .head {
   color: white;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background: var(--theme-color);
   color: white;
 }
@@ -84,4 +74,13 @@ main .head {
   background: var(--white);
   color: var(--theme-color);
   border: 1px solid var(--theme-color);
+}
+
+@media (max-width: 768px) {
+  .head-logo {
+    font-size: 5rem;
+  }
+  main .head {
+    font-size: 1rem;
+  }
 }
