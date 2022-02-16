@@ -1,0 +1,11 @@
+.rating {
+  font-size: 10px;
+}
+
+.rated {
+  color: rgb(255, 225, 27);
+}
+
+.not_rated{
+    color: black;
+}

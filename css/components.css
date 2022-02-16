@@ -32,6 +32,8 @@
 
   --online: green;
   --offline: red;
+
+  --transition:all .3s ease-in;
 }
 
 .container {
@@ -63,7 +65,8 @@
 }
 
 .components li:hover {
-  color: #999;
+  transition: var(--transition);
+  color: var(--theme-color);
 }
 
 .components li:active{
