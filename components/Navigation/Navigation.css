@@ -17,7 +17,7 @@
 .nav_actions {
   align-items: center;
   flex: 1;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
 .badge_small {
