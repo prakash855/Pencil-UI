@@ -1,16 +1,15 @@
-.navigation{
-    justify-content: space-between;
-    margin: 1rem 0;
-    padding: 1rem 2rem;
-    width: 100%;
-    align-items: center;
+.navigation {
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 100%;
+  align-items: center;
 }
 
-.nav_actions{
-    align-items: center;
-    gap: 1rem;
+.nav_actions {
+  align-items: center;
+  gap: 1rem;
 }
 
-.badge_small{
-    left: 0.5rem;
+.badge_small {
+  left: 0.5rem;
 }
