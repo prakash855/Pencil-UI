@@ -1,13 +1,23 @@
 .navigation {
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 1rem 2rem;
   width: 100%;
   align-items: center;
 }
 
+.nav_head{
+  flex: 1;
+}
+
+.nav_input{
+  flex: 2;
+}
+
+
 .nav_actions {
   align-items: center;
-  gap: 1rem;
+  flex: 1;
+  gap: 0.8rem;
 }
 
 .badge_small {
