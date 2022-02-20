@@ -25,7 +25,7 @@
 
 .card_badge:hover {
   background: inherit;
-  color: var(--danger-color);
+  color: var(--red);
 }
 
 .card_image {
