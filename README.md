@@ -28,7 +28,6 @@ Your prewritten class CSS framework is here to help you build awesome UI.
 - Rating
 - Toast
 - Grid
-- Slider
 
 
 ## Run Locally
