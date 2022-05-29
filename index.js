@@ -11,7 +11,7 @@ window.addEventListener("load", (inItEvent) => {
 
 const toggleMenu = () => {
   const sidebar = document.querySelector(".sidebar-responsive");
-  sidebar.style.display === "none"
+  sidebar.style.display === "none" || sidebar.style.display === ""
     ? (sidebar.style.display = "block")
     : (sidebar.style.display = "none");
 };
