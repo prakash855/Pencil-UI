@@ -144,12 +144,35 @@
   font-weight: bold;
 }
 
+.menu-bar {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  .sidebar {
+  .sidebar-responsive {
     display: none;
+    background: white;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    animation: pulse 0.2s linear;
+  }
+  @keyframes pulse {
+    from {
+      left: -50%;
+    }
+    to {
+      left: 0;
+    }
   }
   .content {
     padding: 0;
     width: 100%;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .pencil {
+    display: none;
   }
 }

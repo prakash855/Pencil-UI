@@ -20,26 +20,26 @@
   font-style: italic;
 }
 
-.light_weight{
-    font-weight: lighter;
+.light_weight {
+  font-weight: lighter;
 }
 
-.left_aligned{
-    text-align: left;
+.left_aligned {
+  text-align: left;
 }
 
-.center_aligned{
-    text-align: center;
+.center_aligned {
+  text-align: center;
 }
 
-.right_aligned{
-    text-align: right;
+.right_aligned {
+  text-align: right;
 }
 
-.lowerCased{
+.lowerCased {
   text-transform: lowercase;
 }
 
-.upperCased{
+.upperCased {
   text-transform: uppercase;
 }

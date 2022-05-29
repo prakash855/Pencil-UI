@@ -9,6 +9,13 @@ window.addEventListener("load", (inItEvent) => {
   document.getElementsByClassName("head")[0].style.transform = "translateX(0%)";
 });
 
+const toggleMenu = () => {
+  const sidebar = document.querySelector(".sidebar-responsive");
+  sidebar.style.display === "none"
+    ? (sidebar.style.display = "block")
+    : (sidebar.style.display = "none");
+};
+
 // Input Validation in Input Component
 
 const inputText = document.getElementById("inputText");

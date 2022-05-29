@@ -1,13 +1,13 @@
 .avatar {
-    border: 1px solid;
-    background: var(--primary-color);
-    color: white;
-    font-size: 1rem;
+  border: 1px solid;
+  background: var(--primary-color);
+  color: white;
+  font-size: 1rem;
 }
 
-.avatar_xl{
-    width: 8rem;
-    height: 8rem;
+.avatar_xl {
+  width: 8rem;
+  height: 8rem;
 }
 
 .avatar_lg {
@@ -15,17 +15,17 @@
   height: 6rem;
 }
 
-.avatar_md{
-    width: 4rem;
-    height: 4rem;
+.avatar_md {
+  width: 4rem;
+  height: 4rem;
 }
 
-.avatar_sm{
-    width: 2rem;
-    height: 2rem;
+.avatar_sm {
+  width: 2rem;
+  height: 2rem;
 }
 
-.avatar_xs{
-    width: 1.5rem;
-    height: 1.5rem;
+.avatar_xs {
+  width: 1.5rem;
+  height: 1.5rem;
 }

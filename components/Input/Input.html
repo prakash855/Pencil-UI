@@ -1,182 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pencil UI</title>
-    <link rel="icon" type="image/x-icon" href="../../assets/pencil-fill.svg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="./Input.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="../../assets/pencil-fill.svg" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Zilla+Slab:wght@300&display=swap"
-        rel="stylesheet">
-</head>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="./Input.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Zilla+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div>
-        <nav class="shadow navbar">
-            <div>
-                <a href="../../index.html"><i class="bi bi-pencil-fill"></i>&nbsp;Pencil UI</a>
-            </div>
-
-            <a href="https://www.github.com/prakash855" target="_"><i class="bi bi-github"></i></a>
-        </nav>
-
-        <div class="container flex">
-            <div class="sidebar">
-                <!-- components -->
-                <div class="components-list">
-                    <div class="topic">
-                        <a href="../../components/Home.html">Getting Started</a>
-                    </div>
-                    <div class="topic">
-                        <a href="../Alert/Alert.html">Components</a>
-                    </div>
-                    <ul class="components">
-                        <li>
-                            <a href="../Alert/Alert.html">Alert</a>
-                        </li>
-                        <li>
-                            <a href="../Avatar/Avatar.html">Avatar</a>
-                        </li>
-                        <li>
-                            <a href="../Badge/Badge.html">Badge</a>
-                        </li>
-                        <li>
-                            <a href="../Button/Button.html">Button</a>
-                        </li>
-                        <li>
-                            <a href="../Card/Card.html">Card</a>
-                        </li>
-                        <li>
-                            <a href="../Image/Image.html">Image</a>
-                        </li>
-                        <li>
-                            <a href="../Input/Input.html">Input</a>
-                        </li>
-                        <li>
-                            <a href="../TextUtility/TextUtility.html">TextUtility</a>
-                        </li>
-                        <li>
-                            <a href="../Lists/Lists.html">Lists</a>
-                        </li>
-                        <li>
-                            <a href="../Modal/Modal.html">Modal</a>
-                        </li>
-                        <li>
-                            <a href="../Navigation/Navigation.html">Navigation</a>
-                        </li>
-                        <li>
-                            <a href="../Rating/Rating.html">Rating</a>
-                        </li>
-                        <li>
-                            <a href="../SimplifiedGridDesign/SimplifiedGridDesign.html">Simplified Grids</a>
-                        </li>
-                        <li>
-                            <a href="../ToastNotifySnackbar/ToastNotifySnackbar.html">Toast/Notify/Snackbar
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content_heading">Inputs</div>
-                <div class="content_about">Styled input templates for users to use, whether you need it to search or
-                    input your response, you can customise and use these!</div>
-                <div class="content_subheading_heading">Textbox</div>
-
-                <p class="content_text">Few examples of inputs we have like <span class="highlights">text boxes</span>
-                    below...</p>
-                <div class="component_container flex shadow wrap">
-                    <input class="input shadow" type="text" placeholder="Outline Inputs">
-                    <input class="input shadow filled" type="text" placeholder="Filled Inputs">
-                    <input class="input shadow" type="password" placeholder="Password">
-                    <input class="input shadow" type="text" placeholder="Disabled" disabled>
-                    <input class="input shadow" type="text" placeholder="Required*">
-                    <textarea class="textarea shadow" name="" id="" cols="15" rows="5"
-                        placeholder="Text Area"></textarea>
-                </div>
-                <!-- for code snippets -->
-
-                <div class="component_container flex shadow wrap">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Outline%2520Inputs%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2520filled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Filled%2520Inputs%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2522%2520disabled%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Required*%2522%253E%250A%253Ctextarea%2520class%253D%2522textarea%2520shadow%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520cols%253D%252215%2522%2520rows%253D%25225%2522%2520placeholder%253D%2522Text%2520Area%2522%253E%253C%252Ftextarea%253E"
-                        style="width: 100%; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <div class="content_subheading_heading">Checkbox</div>
-                <div class="component_container flex flex-center shadow wrap">
-                    <input checked type="checkbox" id="checkbox1" name="checkbox1" value="checked">
-                    <label for="vehicle1"> checked</label><br>
-                    <input type="checkbox" id="checkbox2" name="checkbox2" value="unchecked">
-                    <label for="vehicle2"> unchecked</label><br>
-                    <input disabled type="checkbox" id="checkbox3" name="checkbox3" value="disabled">
-                    <label for="vehicle3"> disabled</label><br>
-                </div>
-                <!-- for code snippets -->
-
-                <div class="component_container flex shadow wrap">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520checked%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox1%2522%2520name%253D%2522checkbox1%2522%2520value%253D%2522checked%2522%253E%250A%253Clabel%2520for%253D%2522vehicle1%2522%253E%2520checked%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox2%2522%2520name%253D%2522checkbox2%2522%2520value%253D%2522unchecked%2522%253E%250A%253Clabel%2520for%253D%2522vehicle2%2522%253E%2520unchecked%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%250A%253Cinput%2520disabled%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox3%2522%2520name%253D%2522checkbox3%2522%2520value%253D%2522disabled%2522%253E%250A%253Clabel%2520for%253D%2522vehicle3%2522%253E%2520disabled%253C%252Flabel%253E%253Cbr%253E"
-                        style="width: 100%; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <div class="content_subheading_heading">Radio</div>
-                <div class="component_container flex flex-center shadow wrap">
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                    <label for="html">HTML</label><br>
-                    <input type="radio" id="css" name="fav_language" value="CSS">
-                    <label for="css">CSS</label><br>
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">JavaScript</label>
-                </div>
-                <!-- for code snippets -->
-
-                <div class="component_container flex shadow wrap">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522html%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522HTML%2522%253E%250A%253Clabel%2520for%253D%2522html%2522%253EHTML%253C%252Flabel%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522css%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522CSS%2522%253E%250A%253Clabel%2520for%253D%2522css%2522%253ECSS%253C%252Flabel%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522javascript%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522JavaScript%2522%253E%250A%253Clabel%2520for%253D%2522javascript%2522%253EJavaScript%253C%252Flabel%253E"
-                        style="width: 100%; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <div class="content_subheading_heading">Inputs with validation and errors style</div>
-                <div class="component_container flex shadow wrap">
-                    <input id="inputText" class="input shadow" type="number"
-                        placeholder="Enter Valid Pin (Numbers only)">
-                    <div id="errorOrSuccessInput"></div>
-                </div>
-                <!-- for code snippets -->
-
-                <div class="component_container flex shadow wrap">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520id%253D%2522inputText%2522%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520Valid%2520Pin%2520%28Numbers%2520only%29%2522%253E%250A%253Cdiv%2520id%253D%2522errorOrSuccessInput%2522%253E%253C%252Fdiv%253E"
-                        style="width: 100%; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-
-                <br><br><br><br>
-                <footer class="footer flex">
-                    <a href="../Image/Image.html" class="leftLink">
-                        < &nbsp; Image</a>
-                            <a href="../TextUtility/TextUtility.html" class="rightLink">Text Utility &nbsp; ></a>
-                </footer>
-            </div>
+      <nav class="shadow navbar">
+        <i onclick="toggleMenu()" class="bi bi-list menu-bar"></i>
+        <div class="pencil">
+          <a href="../../index.html"
+            ><i class="bi bi-pencil-fill"></i>&nbsp;Pencil UI</a
+          >
         </div>
+
+        <a href="https://www.github.com/prakash855" target="_"
+          ><i class="bi bi-github"></i
+        ></a>
+      </nav>
+
+      <div class="container flex">
+        <div id="sidebar" class="sidebar sidebar-responsive">
+          <!-- components -->
+          <div class="components-list">
+            <div class="topic">
+              <a href="../../components/Home.html">Getting Started</a>
+            </div>
+            <div class="topic">
+              <a href="../Alert/Alert.html">Components</a>
+            </div>
+            <ul class="components">
+              <li>
+                <a href="../Alert/Alert.html">Alert</a>
+              </li>
+              <li>
+                <a href="../Avatar/Avatar.html">Avatar</a>
+              </li>
+              <li>
+                <a href="../Badge/Badge.html">Badge</a>
+              </li>
+              <li>
+                <a href="../Button/Button.html">Button</a>
+              </li>
+              <li>
+                <a href="../Card/Card.html">Card</a>
+              </li>
+              <li>
+                <a href="../Image/Image.html">Image</a>
+              </li>
+              <li>
+                <a href="../Input/Input.html">Input</a>
+              </li>
+              <li>
+                <a href="../TextUtility/TextUtility.html">TextUtility</a>
+              </li>
+              <li>
+                <a href="../Lists/Lists.html">Lists</a>
+              </li>
+              <li>
+                <a href="../Modal/Modal.html">Modal</a>
+              </li>
+              <li>
+                <a href="../Navigation/Navigation.html">Navigation</a>
+              </li>
+              <li>
+                <a href="../Rating/Rating.html">Rating</a>
+              </li>
+              <li>
+                <a href="../SimplifiedGridDesign/SimplifiedGridDesign.html"
+                  >Simplified Grids</a
+                >
+              </li>
+              <li>
+                <a href="../ToastNotifySnackbar/ToastNotifySnackbar.html"
+                  >Toast/Notify/Snackbar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content_heading">Inputs</div>
+          <div class="content_about">
+            Styled input templates for users to use, whether you need it to
+            search or input your response, you can customise and use these!
+          </div>
+          <div class="content_subheading_heading">Textbox</div>
+
+          <p class="content_text">
+            Few examples of inputs we have like
+            <span class="highlights">text boxes</span> below...
+          </p>
+          <div class="component_container flex shadow wrap">
+            <input
+              class="input shadow"
+              type="text"
+              placeholder="Outline Inputs"
+            />
+            <input
+              class="input shadow filled"
+              type="text"
+              placeholder="Filled Inputs"
+            />
+            <input
+              class="input shadow"
+              type="password"
+              placeholder="Password"
+            />
+            <input
+              class="input shadow"
+              type="text"
+              placeholder="Disabled"
+              disabled
+            />
+            <input class="input shadow" type="text" placeholder="Required*" />
+            <textarea
+              class="textarea shadow"
+              name=""
+              id=""
+              cols="15"
+              rows="5"
+              placeholder="Text Area"
+            ></textarea>
+          </div>
+          <!-- for code snippets -->
+
+          <div class="component_container flex shadow wrap">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Outline%2520Inputs%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2520filled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Filled%2520Inputs%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2522%2520disabled%253E%250A%253Cinput%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Required*%2522%253E%250A%253Ctextarea%2520class%253D%2522textarea%2520shadow%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520cols%253D%252215%2522%2520rows%253D%25225%2522%2520placeholder%253D%2522Text%2520Area%2522%253E%253C%252Ftextarea%253E"
+              style="
+                width: 100%;
+                height: 40vh;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="content_subheading_heading">Checkbox</div>
+          <div class="component_container flex flex-center shadow wrap">
+            <input
+              checked
+              type="checkbox"
+              id="checkbox1"
+              name="checkbox1"
+              value="checked"
+            />
+            <label for="vehicle1"> checked</label><br />
+            <input
+              type="checkbox"
+              id="checkbox2"
+              name="checkbox2"
+              value="unchecked"
+            />
+            <label for="vehicle2"> unchecked</label><br />
+            <input
+              disabled
+              type="checkbox"
+              id="checkbox3"
+              name="checkbox3"
+              value="disabled"
+            />
+            <label for="vehicle3"> disabled</label><br />
+          </div>
+          <!-- for code snippets -->
+
+          <div class="component_container flex shadow wrap">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520checked%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox1%2522%2520name%253D%2522checkbox1%2522%2520value%253D%2522checked%2522%253E%250A%253Clabel%2520for%253D%2522vehicle1%2522%253E%2520checked%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox2%2522%2520name%253D%2522checkbox2%2522%2520value%253D%2522unchecked%2522%253E%250A%253Clabel%2520for%253D%2522vehicle2%2522%253E%2520unchecked%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%250A%253Cinput%2520disabled%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox3%2522%2520name%253D%2522checkbox3%2522%2520value%253D%2522disabled%2522%253E%250A%253Clabel%2520for%253D%2522vehicle3%2522%253E%2520disabled%253C%252Flabel%253E%253Cbr%253E"
+              style="
+                width: 100%;
+                height: 40vh;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="content_subheading_heading">Radio</div>
+          <div class="component_container flex flex-center shadow wrap">
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">HTML</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="css">CSS</label><br />
+            <input
+              type="radio"
+              id="javascript"
+              name="fav_language"
+              value="JavaScript"
+            />
+            <label for="javascript">JavaScript</label>
+          </div>
+          <!-- for code snippets -->
+
+          <div class="component_container flex shadow wrap">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522html%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522HTML%2522%253E%250A%253Clabel%2520for%253D%2522html%2522%253EHTML%253C%252Flabel%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522css%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522CSS%2522%253E%250A%253Clabel%2520for%253D%2522css%2522%253ECSS%253C%252Flabel%253E%250A%2520%2520%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522javascript%2522%2520name%253D%2522fav_language%2522%2520value%253D%2522JavaScript%2522%253E%250A%253Clabel%2520for%253D%2522javascript%2522%253EJavaScript%253C%252Flabel%253E"
+              style="
+                width: 100%;
+                height: 40vh;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="content_subheading_heading">
+            Inputs with validation and errors style
+          </div>
+          <div class="component_container flex shadow wrap">
+            <input
+              id="inputText"
+              class="input shadow"
+              type="number"
+              placeholder="Enter Valid Pin (Numbers only)"
+            />
+            <div id="errorOrSuccessInput"></div>
+          </div>
+          <!-- for code snippets -->
+
+          <div class="component_container flex shadow wrap">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28178%2C34%2C34%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520id%253D%2522inputText%2522%2520class%253D%2522input%2520shadow%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520Valid%2520Pin%2520%28Numbers%2520only%29%2522%253E%250A%253Cdiv%2520id%253D%2522errorOrSuccessInput%2522%253E%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 40vh;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <br /><br /><br /><br />
+          <footer class="footer flex">
+            <a href="../Image/Image.html" class="leftLink"> < &nbsp; Image</a>
+            <a href="../TextUtility/TextUtility.html" class="rightLink"
+              >Text Utility &nbsp; ></a
+            >
+          </footer>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 
-<script src="../../index.js"></script>
-
+  <script src="../../index.js"></script>
 </html>

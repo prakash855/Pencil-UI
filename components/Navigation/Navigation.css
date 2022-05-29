@@ -5,14 +5,13 @@
   align-items: center;
 }
 
-.nav_head{
+.nav_head {
   flex: 1;
 }
 
-.nav_input{
+.nav_input {
   flex: 2;
 }
-
 
 .nav_actions {
   align-items: center;
