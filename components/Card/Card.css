@@ -82,5 +82,10 @@
 .Horizontal_card {
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  width: max-content;
+}
+
+@media (max-width: 768px) {
+  .Horizontal_card{
+    grid-template-columns: none;
+  }
 }
