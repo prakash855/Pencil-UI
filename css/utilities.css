@@ -15,6 +15,18 @@
   align-items: center;
 }
 
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
 .center {
   text-align: center;
 }
